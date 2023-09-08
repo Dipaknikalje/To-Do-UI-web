@@ -1,5 +1,7 @@
 body{
     background-color: rgb(239, 238, 238);
+    width:100%;
+    overflow-x:hidden ;
 }
 
 
@@ -22,6 +24,7 @@ body{
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: 20px;
+    margin-right: 140px;
 
 }
 
@@ -61,8 +64,9 @@ a{
     display: flex;
     flex-flow: row wrap;
     flex-wrap: wrap;
-    margin-left:250px;
-    margin-right:250px
+    justify-content:flex-start;
+    align-content: center;
+    padding: 10px 100px 100px 100px;
 }
 
 .card{
@@ -71,6 +75,7 @@ a{
     width: 260px;
     height: 250px;
     margin: 10px;
+    padding-right:50px;
     border-radius: 10px;
     flex-basis: 285px;
 }
